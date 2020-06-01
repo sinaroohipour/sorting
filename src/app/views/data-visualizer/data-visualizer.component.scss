@@ -1,0 +1,29 @@
+.array-box {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 3% 0 3%;
+}
+
+.item {
+  width: 100%;
+  background-color: green;
+  margin: 0 2px 2px;
+  position: relative;
+  bottom: 0;
+}
+.header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: crimson;
+  display: inline-block;
+}
+.header-item{
+  display: inline;
+  margin: 20px;
+}
+.size-item{
+  display: inline;
+  margin: 4px;
+}
