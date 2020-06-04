@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {DataVisualizerComponent} from './views/data-visualizer/data-visualizer.component';
-
+import {MergeComponent} from './views/merge/merge.component';
 
 const routes: Routes = [
   {
-    path: 'sortingVisualizer', component: DataVisualizerComponent
-  }
+    path: '', component: MergeComponent
+  },
+  {
+    path: 'Merge', component: MergeComponent
+  },
 ];
 
 @NgModule({

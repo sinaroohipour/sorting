@@ -3,18 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DataVisualizerComponent } from './views/data-visualizer/data-visualizer.component';
 import {FormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MergeComponent } from './views/merge/merge.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataVisualizerComponent
+    MergeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
