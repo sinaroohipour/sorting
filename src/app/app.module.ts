@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MergeComponent } from './views/merge/merge.component';
+import { HomeComponent } from './views/home/home.component';
+import { BubbleComponent } from './views/bubble/bubble.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MergeComponent
+    MergeComponent,
+    HomeComponent,
+    BubbleComponent
   ],
   imports: [
     BrowserModule,

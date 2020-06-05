@@ -1,0 +1,21 @@
+<div class="header">
+  <button class="header-item" (click)="generateRandom()">generate</button>
+  <div class="header-item size">
+    <p class="size-item">number of blocks :</p>
+    <input class="size-item" type="number" [(ngModel)]="arraySize">
+  </div>
+  <div class="header-item size">
+    <p class="size-item">speed</p>
+    <input class="size-item" type="number" [(ngModel)]="ANIMATION_SPEED_MS">
+  </div>
+  <div class="header-item selectSort">
+    <button class="header-item" (click)="sort();">sort!</button>
+  </div>
+</div>
+<div class="container">
+  <div class="array-box" *ngIf="numbers && sortAnimation">
+    <div class="item" *ngFor="let item of numbers, let i = index"
+         [style.height.px]="numbers[i]">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+.container{
+  background-color: black;
+  height: 100%;
+}
+.array-box {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 3% 0 3%;
+}
+
+.item {
+  width: 100%;
+  background-color: white;
+  margin: 0 2px 2px;
+  bottom: 0;
+}
+.header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #2C0E44;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+.header-item{
+  display: inline;
+  margin: 20px;
+}
+.size-item{
+  display: inline;
+  margin: 4px;
+}
